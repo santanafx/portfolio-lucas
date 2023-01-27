@@ -1,0 +1,26 @@
+@import url("./css/cabecalho.css");
+@import url("./css/trabalhos.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --vermelho: #c0504d;
+  --branco: #ffffff;
+  --vermelho-claro: #fff7f8;
+  --azul-claro: #d5f2f2;
+  --azul-escuro: #4f5e8c;
+  --cinza: #a2a2a2;
+}
+
+hr {
+  margin: 10px auto;
+  height: 1px;
+  width: 70%;
+  background-color: var(--cinza);
+  border-style: none;
+}
