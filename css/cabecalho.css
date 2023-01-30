@@ -64,3 +64,63 @@
   color: var(--cinza);
   transition: 1000ms;
 }
+
+@media screen and (max-width: 930px) {
+  .cabecalho__bg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.6fr 1fr;
+    padding: 10px 10px 30px 10px;
+    background-image: linear-gradient(to bottom right, var(--azul-claro), var(--azul-escuro));
+    width: 100%;
+  }
+  .cabecalho__menu {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: flex-start;
+  }
+
+  .cabecalho__lucas {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 200px;
+    min-width: 200px;
+    box-shadow: 12px 12px 2px 1px var(--azul);
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .cabecalho__texto {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cabecalho__bg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.6fr 1fr;
+    padding: 10px 10px 30px 10px;
+    background-image: linear-gradient(to bottom right, var(--azul-claro), var(--azul-escuro));
+    width: 100%;
+  }
+
+  .cabecalho__menu {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: flex-start;
+  }
+
+  .cabecalho__nav {
+    margin: 10px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: unset;
+  }
+}
