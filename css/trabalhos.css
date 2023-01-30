@@ -1,6 +1,6 @@
 .trabalhos__bg {
   width: 100%;
-  background-color: var(--azul-claro);
+  background-image: linear-gradient(to bottom right, var(--cinza), var(--branco));
   padding: 10px 10px 60px 10px;
 }
 
@@ -20,7 +20,7 @@
   max-width: 300px;
   min-width: 300px;
   height: 400px;
-  box-shadow: 12px 12px 2px 1px var(--azul-escuro);
+  box-shadow: 12px 12px 2px 1px var(--preto-claro);
   margin: 0 0 0 60px;
 }
 

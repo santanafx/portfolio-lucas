@@ -1,6 +1,6 @@
 .rodape__bg {
   width: 100%;
-  background-color: var(--vermelho-claro);
+  background-image: linear-gradient(to bottom right, var(--azul-claro), var(--azul-escuro));
   height: 300px;
 }
 

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.8fr 2fr;
   padding: 10px 10px 30px 10px;
-  background-color: var(--vermelho-claro);
+  background-image: linear-gradient(to bottom right, var(--azul-claro), var(--azul-escuro));
   width: 100%;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .cabecalho__botao {
-  background-color: var(--vermelho);
+  background-color: var(--azul);
   color: var(--branco);
   border-radius: 5px;
   border-style: none;
@@ -41,7 +41,7 @@
   grid-row: 2;
   max-width: 40%;
   min-width: 40%;
-  box-shadow: 12px 12px 2px 1px var(--vermelho);
+  box-shadow: 12px 12px 2px 1px var(--azul);
 }
 
 .cabecalho__menu {
